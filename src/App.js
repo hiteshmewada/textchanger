@@ -10,6 +10,7 @@ import Alert from "./components/Alert";
 // Switch is replaced in react-router-dom version 6.
 // npm install react-router-dom@5
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// CLS -> Cumulative Layout shift is the shift of contents on website due to some other components and It should be minimised in website
 function App() {
   const [mode, setMode] = useState("light");
   const [alert, setAlert] = useState(null);
@@ -63,7 +64,7 @@ function App() {
               </Route>
               <Route exact path="/"> */}
               <TextForm
-              heading="Enter the text to analyze below"
+              heading="Enter the text to analyze below -> Word Counter | Character Counter | Remove Extra Spaces"
               mode={mode}
               showAlert={showAlert}
             />
