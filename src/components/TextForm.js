@@ -40,7 +40,7 @@ export default function TextForm(props) {
         text = text.replace(/[ ]{2,}/gi," ");//2 or more space to 1
         text = text.replace(/\n /,"\n"); // exclude newline with a start spacing
         
-        return text.split(' ').filter(function(text){return text!="";}).length;
+        return text.split(' ').filter(function(text){return text!=="";}).length;
         //return s.split(' ').filter(String).length; - this can also be used
     }
     const handleOnChange=(event)=>{
