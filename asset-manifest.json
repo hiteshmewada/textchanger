@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/textchanger/static/css/main.073c9b0a.css",
-    "main.js": "/textchanger/static/js/main.692c58d8.js",
+    "main.js": "/textchanger/static/js/main.df298f1b.js",
     "static/js/787.f4b45ff1.chunk.js": "/textchanger/static/js/787.f4b45ff1.chunk.js",
     "static/media/logo.svg": "/textchanger/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/textchanger/index.html",
     "main.073c9b0a.css.map": "/textchanger/static/css/main.073c9b0a.css.map",
-    "main.692c58d8.js.map": "/textchanger/static/js/main.692c58d8.js.map",
+    "main.df298f1b.js.map": "/textchanger/static/js/main.df298f1b.js.map",
     "787.f4b45ff1.chunk.js.map": "/textchanger/static/js/787.f4b45ff1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.692c58d8.js"
+    "static/js/main.df298f1b.js"
   ]
 }
